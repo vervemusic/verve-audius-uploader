@@ -1,7 +1,7 @@
 # Verve Audius Uploader
 
-Phase 1: connect the Verve Music Audius account using the official `@audius/sdk` OAuth flow.
+Private workflow helper for Verve Music.
 
-This repository intentionally contains only the Audius public application key. It does not contain an API secret or bearer token.
+The Audius developer API key used here is the app's public identifier. The API secret and bearer token are not stored in this repository.
 
-Deployment target: Vercel Hobby.
+Phase 1 proves Audius OAuth and a single track upload. The longer-term workflow will pull masters and metadata from the existing Verve sources so the catalog does not have to be uploaded by hand.
